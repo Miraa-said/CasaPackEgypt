@@ -9,17 +9,17 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     const phonePattern = /^[0-9+\-\s()]{8,20}$/;
 
     // Validate email
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    //const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!phonePattern.test(phone)) {
         alert("❌ Please enter a valid phone number.");
         return;
     }
 
-    if (!emailPattern.test(email)) {
+   /* if (!emailPattern.test(email)) {
         alert("❌ Please enter a valid email address.");
         return;
-    }
+   }*/
 
     try {
         const response = await fetch(form.action, {

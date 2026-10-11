@@ -121,21 +121,24 @@ header .fa-bars{
 .home .content{
     max-width: 50rem;
 }
-.home .content h3{
+.home .content h3 {
     font-size: 6rem;
-    color:#333;
+    color: white;
+    -webkit-text-stroke: 1.5px #333;
 }
 
-.home .content span{
+.home .content span {
     font-size: 3.5rem;
-    color:#233051;
+    color: #233051;
+    -webkit-text-stroke: 0.2px white;
     padding: 1rem 0;
     line-height: 1.5;
 }
 
-.home .content p{
+.home .content p {
     font-size: 1.5rem;
-    color:#090909;
+    color: white;
+    text-shadow: 1px 1px 2px #333, 0 0 4px #333;
     padding: 1rem 0;
     line-height: 1.5;
 }

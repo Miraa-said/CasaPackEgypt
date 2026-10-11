@@ -562,18 +562,28 @@ resize: none;
     text-transform: none;
 }
 
+.footer .box-container .box a[href^="mailto:"] {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
 .footer .box-container .box a:hover{
     color: var(--gold);
     text-decoration: underline;
 }
-.footer .box-container .box img{
-    margin-top: 1rem;
-    width: 50px;
-    height: auto;
+.footer .box-container .box img {
+    margin-top: -2.5rem;
+    margin-left: -4rem;
+    width: 350px;
+    height: 150px;
+    object-fit: contain;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
-
 .footer .credit{
     text-align: center;
     padding: 1.5rem;

@@ -489,6 +489,55 @@ resize: none;
     margin-top: 19px;
 }
 
+
+/* Product selection */
+.contact .row form .product-selection {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin: .7rem 0;
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.contact .row form .input-box:has(.product-selection) > i {
+    margin-top: -66%;
+}
+
+.contact .row form .product-selection h3 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: .5rem;
+}
+
+.contact .row form .product-selection p {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.contact .row form .product-selection label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+    padding: .8rem 0;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.contact .row form .product-selection input[type="checkbox"] {
+    width: 1.7rem;
+    height: 1.7rem;
+    flex-shrink: 0;
+    accent-color: #233051;
+    cursor: pointer;
+}
+
+
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -510,6 +559,7 @@ resize: none;
     color:#666;
     font-size: 2.5rem;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .footer .box-container .box a:hover{
@@ -561,17 +611,21 @@ section{
 } 
 .home .content h3{ 
     font-size: 6rem; 
-    color:#333; 
+    color: white;
+    -webkit-text-stroke: 1.5px #333;
 } 
 .home .content span{ 
     font-size: 3.5rem; 
-    color:#233051; 
+     color: #233051;
+    -webkit-text-stroke: 0.2px white;
     padding: 1rem 0; 
     line-height: 1.5; 
 } 
 .home .content p{ 
     font-size: 1.5rem; 
-    color:#090909; 
+    color: white;
+    -webkit-text-stroke: 0.7px #233051;
+    text-shadow: 1px 1px 2px #233051; 
     padding: 1rem 0; 
     line-height: 1.5; 
 }

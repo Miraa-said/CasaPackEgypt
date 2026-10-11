@@ -5,6 +5,17 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     const phone = form.querySelector('input[name="number"]').value.trim();
     const email = form.querySelector('input[name="email"]').value.trim();
 
+   const selectedProducts = Array.from(
+    document.querySelectorAll(
+        '.product-selection input[type="checkbox"]:checked'
+    )
+).map(checkbox => checkbox.value);
+
+document.getElementById('selected-products').value =
+    selectedProducts.length > 0
+        ? selectedProducts.join(', ')
+        : 'None selected';
+
     // Validate phone number
     const phonePattern = /^[0-9+\-\s()]{8,20}$/;
 

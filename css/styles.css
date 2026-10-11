@@ -640,9 +640,6 @@ header .logo img {
     display: block;
 }
 
-.contact .row form .input-box:has(.product-selection) > i {
-    margin-top: -70%;
-}
 
 }
 
@@ -685,9 +682,6 @@ header .logo img {
     font-size: 1.7rem;
 }
 
-.contact .row form .input-box:has(.product-selection) > i {
-    margin-top: -70%;
-}
 
 }
 
@@ -698,9 +692,6 @@ header .logo img {
 }
 .heading{
     font-size: 3rem;
-}
-.contact .row form .input-box:has(.product-selection) > i {
-    margin-top: -70%;
 }
 
 }
@@ -738,10 +729,6 @@ header .logo img {
 
     .about {
     margin-top: 0rem;
-}
-
-.contact .row form .input-box:has(.product-selection) > i {
-    margin-top: -70%;
 }
 
 }
